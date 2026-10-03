@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motor Tech Dashboard</title>
+    <meta
+      name="description"
+      content="Dashboard premium untuk BENYAMIN BATAU MOTORCYCLE TECH dan portal kustom"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand-wrap">
+          <div class="brand-mark">MB</div>
+          <div>
+            <p class="eyebrow">Performance Suite</p>
+            <h1>Motor Tech</h1>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <a class="nav-item active" href="#overview">Overview</a>
+          <a class="nav-item" href="#projects">Projects</a>
+          <a class="nav-item" href="#analytics">Analytics</a>
+          <a class="nav-item" href="#activity">Activity</a>
+        </nav>
+
+        <div class="mini-panel">
+          <p class="mini-label">System Status</p>
+          <div class="status-row">
+            <span class="dot green"></span>
+            <span>All systems healthy</span>
+          </div>
+          <div class="status-row">
+            <span class="dot orange"></span>
+            <span>Sync running</span>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main-content" id="overview">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Dashboard</p>
+            <h2>Executive Overview</h2>
+          </div>
+          <div class="topbar-actions">
+            <div class="chip">Live</div>
+            <div class="clock" id="clock">--:--:--</div>
+          </div>
+        </header>
+
+        <section class="hero-grid">
+          <article class="metric-card gradient-blue">
+            <p>Active Builds</p>
+            <h3>24</h3>
+            <span>+12% vs last week</span>
+          </article>
+          <article class="metric-card gradient-purple">
+            <p>AI Commands</p>
+            <h3>1.4K</h3>
+            <span>+228 automated tasks</span>
+          </article>
+          <article class="metric-card gradient-gold">
+            <p>Uptime</p>
+            <h3>99.9%</h3>
+            <span>Consistent delivery</span>
+          </article>
+        </section>
+
+        <section class="projects-section" id="projects">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Workspace</p>
+              <h3>Integrated projects</h3>
+            </div>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-header">
+                <div>
+                  <p class="badge badge-rocket">AI Force</p>
+                  <h4>Benyamin Batu Motor Tech</h4>
+                </div>
+                <a
+                  class="launch-btn"
+                  href="https://benyaminbatau.github.io/BENYAMIN-BATAU-MOTORCYCLE-TECH-G1-AI-FORCE-BY-TURBO/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Open site
+                </a>
+              </div>
+
+              <div class="preview-wrap">
+                <iframe
+                  class="preview-frame"
+                  data-src="https://benyaminbatau.github.io/BENYAMIN-BATAU-MOTORCYCLE-TECH-G1-AI-FORCE-BY-TURBO/"
+                  title="Benyamin Batu Motorcycle Tech preview"
+                  loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                ></iframe>
+                <div class="frame-fallback">
+                  Preview blocked by the remote site. Open the live page to view it.
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-header">
+                <div>
+                  <p class="badge badge-sky">Portal</p>
+                  <h4>Kamus TSMJ Ocular</h4>
+                </div>
+                <a
+                  class="launch-btn"
+                  href="https://kamustsmjocular-halva-93b231.netlify.app/?fbclid=IwY2xjawUtggBleHRuA2FlbQIxMABwZG9mBWJyaWQRMWdyd0tpZWVPRzVpY01tNWpzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeIJBdKp6HKSCMOLhnnk7itDcnNiaW8DJu9NAn1agNPkxBiyZxykoCz2qAsaI_aem_yT2c_eWnd_0qLZU1dXgzyQ"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Open site
+                </a>
+              </div>
+
+              <div class="preview-wrap">
+                <iframe
+                  class="preview-frame"
+                  data-src="https://kamustsmjocular-halva-93b231.netlify.app/?fbclid=IwY2xjawUtggBleHRuA2FlbQIxMABwZG9mBWJyaWQRMWdyd0tpZWVPRzVpY01tNWpzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeIJBdKp6HKSCMOLhnnk7itDcnNiaW8DJu9NAn1agNPkxBiyZxykoCz2qAsaI_aem_yT2c_eWnd_0qLZU1dXgzyQ"
+                  title="Kamus TSMJ Ocular preview"
+                  loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                ></iframe>
+                <div class="frame-fallback">
+                  Preview blocked by the remote site. Open the live page to view it.
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="bottom-grid" id="analytics">
+          <article class="panel chart-panel">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Operations</p>
+                <h4>Delivery velocity</h4>
+              </div>
+            </div>
+            <div class="bars" aria-label="bar chart">
+              <span style="height: 34%"></span>
+              <span style="height: 52%"></span>
+              <span style="height: 45%"></span>
+              <span style="height: 72%"></span>
+              <span style="height: 88%"></span>
+              <span style="height: 68%"></span>
+              <span style="height: 96%"></span>
+            </div>
+          </article>
+
+          <article class="panel activity-panel" id="activity">
+            <div class="panel-header">
+              <div>
+                <p class="eyebrow">Recent activity</p>
+                <h4>Latest updates</h4>
+              </div>
+            </div>
+            <ul class="activity-list">
+              <li>
+                <span class="activity-dot blue"></span>
+                <div>
+                  <strong>AI Force dashboard refreshed</strong>
+                  <small>2 minutes ago</small>
+                </div>
+              </li>
+              <li>
+                <span class="activity-dot purple"></span>
+                <div>
+                  <strong>Portal sync completed</strong>
+                  <small>18 minutes ago</small>
+                </div>
+              </li>
+              <li>
+                <span class="activity-dot gold"></span>
+                <div>
+                  <strong>Performance benchmark updated</strong>
+                  <small>1 hour ago</small>
+                </div>
+              </li>
+            </ul>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
